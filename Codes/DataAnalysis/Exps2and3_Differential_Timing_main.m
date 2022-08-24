@@ -6,7 +6,7 @@ addpath('../Functions')
 co_afCSm_delay= [255,191,0]/255; % gold
 co_afCSm_control= [94,183,123]/255; % green
 
-delayGroup=2; % 1- Delay; 2- Control (matched ITI)
+delayGroup=1; % 1- Delay; 2- Control (matched ITI)
 if delayGroup==1
     load('../../Data/AssociativeAdaptation_Exp2_DifferentialTiming_Delay_trials');
 else
@@ -124,9 +124,9 @@ diff_cond.cs_p=cs_p;
 diff_cond.rt=rt;
 
 if delayGroup==1
-    save('data_diffCond_Timing_VaryingDelay_Comb','diff_cond');
+    save('data_diffCond_Timing_Delay','diff_cond');
 else
-    save('data_diffCond_Timing_LongITI_Comb','diff_cond');
+    save('data_diffCond_Timing_Control','diff_cond');
 end
 
 t_n1=cell(nS,4); % number of conditions
