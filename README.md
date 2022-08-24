@@ -16,6 +16,7 @@
 ### Data:
   
   Includes raw data collected during the experiments:
+    
     Experiment 1- AssociativeAdaptation_Exp1_Differential_trials.mat
     Experiment 2- AssociativeAdaptation_Exp2_DifferentialTiming_Delay_trials.mat
     Experiment 3- AssociativeAdaptation_Exp3_DifferentialTiming_Control_trials.mat
@@ -52,4 +53,3 @@
     maxRadDist- maximum radial movement extent
 
     More details on how the data was processed and analyzed can be found in the Methods section of the paper.
-
