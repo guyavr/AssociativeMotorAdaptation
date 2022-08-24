@@ -6,7 +6,6 @@ B = params(2);
 err = params(3);
 
 ntrials = length(us);
-% clamp_size = 15;
 X = zeros(1,ntrials+1);
 us(601:end) = 0; % probe/washout
 
