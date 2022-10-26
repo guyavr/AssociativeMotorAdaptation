@@ -1,5 +1,6 @@
 # AssociativeMotorAdaptation
-## Codes and data accompanying the paper "Contextual effects in sensorimotor adaptation adhere to associative learning rules"
+## Codes and data accompanying the paper: Avraham et al. Contextual effects in sensorimotor adaptation adhere to associative learning rules.
+eLife 2022;11:e75801. DOI: https://doi.org/10.7554/eLife.75801
 
 ### Codes:
 
